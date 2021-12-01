@@ -1,0 +1,61 @@
+[ {
+  "uid" : "2bcd50ba535feb14",
+  "name" : " Add an item to cart",
+  "time" : {
+    "start" : 1637565059045,
+    "stop" : 1637565066163,
+    "duration" : 7118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2602dbef457112b",
+  "name" : " Check the item in cart",
+  "time" : {
+    "start" : 1637565066187,
+    "stop" : 1637565068242,
+    "duration" : 2055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "150f1a186100414d",
+  "name" : "Get User ",
+  "time" : {
+    "start" : 1637743939185,
+    "stop" : 1637743942774,
+    "duration" : 3589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3bce778630fea9a",
+  "name" : "Place order",
+  "time" : {
+    "start" : 1637565068273,
+    "stop" : 1637565078513,
+    "duration" : 10240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6388ea71c273f90e",
+  "name" : " Click on SigIn",
+  "time" : {
+    "start" : 1637565033524,
+    "stop" : 1637565049891,
+    "duration" : 16367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5ba7e40ae318b0d",
+  "name" : "Select an item",
+  "time" : {
+    "start" : 1637565049899,
+    "stop" : 1637565058922,
+    "duration" : 9023
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

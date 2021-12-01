@@ -1,0 +1,50 @@
+{
+  "uid" : "c430ec5d7973fff6",
+  "name" : " Add an item to cart",
+  "fullName" : "Demoblaze example app. Add an item to cart",
+  "historyId" : "16b9a67c177b73c8d06d2d33dc37b2b8",
+  "time" : {
+    "start" : 1637322226598,
+    "stop" : 1637322235661,
+    "duration" : 9063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `a.btn-lg`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.btn-lg`, but never found it.\n                    at cart.button (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\specs\\demoblaze.spec.js:202:15)\n                    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\specs\\demoblaze.spec.js:154:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : " Add an item to cart"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c430ec5d7973fff6.json",
+  "parameterValues" : [ ]
+}

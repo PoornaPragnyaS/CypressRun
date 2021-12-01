@@ -1,0 +1,48 @@
+{
+  "uid" : "2de1f676e2c771f8",
+  "name" : " Click on SigIn",
+  "fullName" : "Demoblaze example app. Click on SigIn",
+  "historyId" : "e829fdef1d3a93ec9c5a83a075ebbada",
+  "time" : {
+    "start" : 1637324616372,
+    "stop" : 1637324630870,
+    "duration" : 14498
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : " Click on SigIn"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2de1f676e2c771f8.json",
+  "parameterValues" : [ ]
+}

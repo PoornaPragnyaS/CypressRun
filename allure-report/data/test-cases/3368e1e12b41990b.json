@@ -1,0 +1,48 @@
+{
+  "uid" : "3368e1e12b41990b",
+  "name" : " Check the item in cart",
+  "fullName" : "Demoblaze example app. Check the item in cart",
+  "historyId" : "8feeb25744f89aee639170c248decdf8",
+  "time" : {
+    "start" : 1637319643158,
+    "stop" : 1637319645571,
+    "duration" : 2413
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : " Check the item in cart"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3368e1e12b41990b.json",
+  "parameterValues" : [ ]
+}

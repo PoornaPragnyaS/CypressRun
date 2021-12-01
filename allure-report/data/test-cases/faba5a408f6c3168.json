@@ -1,0 +1,48 @@
+{
+  "uid" : "faba5a408f6c3168",
+  "name" : " Add an item to cart",
+  "fullName" : "Demoblaze example app. Add an item to cart",
+  "historyId" : "16b9a67c177b73c8d06d2d33dc37b2b8",
+  "time" : {
+    "start" : 1637324638712,
+    "stop" : 1637324649081,
+    "duration" : 10369
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : " Add an item to cart"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "faba5a408f6c3168.json",
+  "parameterValues" : [ ]
+}

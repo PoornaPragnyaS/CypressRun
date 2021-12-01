@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n                \n                `<img class=\"card-img-top img-fluid\" src=\"imgs/iphone_6.jpg\" alt=\"\">`\n                \n                This element `<img.card-img-top.img-fluid>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+      "children" : [ {
+        "name" : "Select an item",
+        "uid" : "c5ba7e40ae318b0d",
+        "parentUid" : "824f899356930cf5ee762ddb5737c298",
+        "status" : "broken",
+        "time" : {
+          "start" : 1637565049899,
+          "stop" : 1637565058922,
+          "duration" : 9023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "824f899356930cf5ee762ddb5737c298"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

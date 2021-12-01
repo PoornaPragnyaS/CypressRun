@@ -1,0 +1,50 @@
+{
+  "uid" : "68439e464f6579f2",
+  "name" : "Select an item",
+  "fullName" : "Demoblaze example app.Select an item",
+  "historyId" : "a61eb708bd891052132c67790c5373a2",
+  "time" : {
+    "start" : 1637322218700,
+    "stop" : 1637322226467,
+    "duration" : 7767
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find element: `[src=\"imgs/iphone_6.jpg\"]`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[src=\"imgs/iphone_6.jpg\"]`, but never found it.\n                    at item.getimg (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\specs\\demoblaze.spec.js:238:15)\n                    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\specs\\demoblaze.spec.js:148:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select an item"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68439e464f6579f2.json",
+  "parameterValues" : [ ]
+}

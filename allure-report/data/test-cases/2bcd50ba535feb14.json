@@ -1,0 +1,75 @@
+{
+  "uid" : "2bcd50ba535feb14",
+  "name" : " Add an item to cart",
+  "fullName" : "Demoblaze example app. Add an item to cart",
+  "historyId" : "16b9a67c177b73c8d06d2d33dc37b2b8",
+  "time" : {
+    "start" : 1637565059045,
+    "stop" : 1637565066163,
+    "duration" : 7118
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : " Add an item to cart"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "faba5a408f6c3168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637324638712,
+        "stop" : 1637324649081,
+        "duration" : 10369
+      }
+    }, {
+      "uid" : "c430ec5d7973fff6",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `a.btn-lg`, but never found it.",
+      "time" : {
+        "start" : 1637322226598,
+        "stop" : 1637322235661,
+        "duration" : 9063
+      }
+    }, {
+      "uid" : "e4abfc8833ffb9cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637319634434,
+        "stop" : 1637319643137,
+        "duration" : 8703
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bcd50ba535feb14.json",
+  "parameterValues" : [ ]
+}

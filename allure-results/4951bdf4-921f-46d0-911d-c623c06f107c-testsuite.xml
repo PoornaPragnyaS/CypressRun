@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637319610809' stop='1637319652829'>
+    <name>Demoblaze example app</name>
+    <title>Demoblaze example app</title>
+    <test-cases>
+        <test-case start='1637319610810' status='passed' stop='1637319626585'>
+            <name> Click on SigIn</name>
+            <title> Click on SigIn</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637319626604' status='passed' stop='1637319634408'>
+            <name>Select an item</name>
+            <title>Select an item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637319634434' status='passed' stop='1637319643137'>
+            <name> Add an item to cart</name>
+            <title> Add an item to cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637319643158' status='passed' stop='1637319645571'>
+            <name> Check the item in cart</name>
+            <title> Check the item in cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637319645601' status='passed' stop='1637319652826'>
+            <name>Place order</name>
+            <title>Place order</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

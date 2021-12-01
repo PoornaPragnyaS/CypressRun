@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637565033524' stop='1637565078515'>
+    <name>Demoblaze example app</name>
+    <title>Demoblaze example app</title>
+    <test-cases>
+        <test-case start='1637565033524' status='passed' stop='1637565049891'>
+            <name> Click on SigIn</name>
+            <title> Click on SigIn</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637565049899' status='broken' stop='1637565058922'>
+            <name>Select an item</name>
+            <title>Select an item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;img class="card-img-top img-fluid" src="imgs/iphone_6.jpg" alt="">`
+                
+                This element `&lt;img.card-img-top.img-fluid>` is not visible because it has an effective width and height of: `0 x 0` pixels.
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with</message>
+                <stack-trace>CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;img class="card-img-top img-fluid" src="imgs/iphone_6.jpg" alt="">`
+                
+                This element `&lt;img.card-img-top.img-fluid>` is not visible because it has an effective width and height of: `0 x 0` pixels.
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with
+                    at runVisibilityCheck (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:162670:85)
+                    at $Cy.ensureStrictVisibility (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:162686:14)
+                    at runAllChecks (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:149905:14)
+                    at retryActionability (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:149960:16)
+                    at tryCatcher (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:13212:23)
+                    at Function.Promise.attempt.Promise.try (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:10486:29)
+                    at tryFn (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:167495:61)
+                    at whenStable (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:167534:14)
+                    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:167021:18
+                    at tryCatcher (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:13212:23)
+                    at Promise._settlePromiseFromHandler (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11147:31)
+                    at Promise._settlePromise (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11204:18)
+                    at Promise._settlePromise0 (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11249:10)
+                    at Promise._settlePromises (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11329:18)
+                    at Promise._fulfill (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11273:18)
+                    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:12887:46
+                From Your Spec Code:
+                    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\integration\specs\demoblaze.spec.js:148:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637565059045' status='passed' stop='1637565066163'>
+            <name> Add an item to cart</name>
+            <title> Add an item to cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637565066187' status='passed' stop='1637565068242'>
+            <name> Check the item in cart</name>
+            <title> Check the item in cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637565068273' status='passed' stop='1637565078513'>
+            <name>Place order</name>
+            <title>Place order</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

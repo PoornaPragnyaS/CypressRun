@@ -1,0 +1,34 @@
+{
+  "name": "cypress_folder",
+  "version": "1.0.0",
+  "description": "demo_practice",
+  "main": "index.js",
+  "author": "Poorna Pragnya",
+  "license": "ISC",
+  "scripts": {
+    "cy-open": "npx cypress open",
+    "cy-run": "npx cypress run",
+    "cy-smoke": "npm run cy-run CYPRESS_INCLUDE_TAGS=smoke ",
+    "cy-wip": "CYPRESS_INCLUDE_TAGS=wip npm run cy-run",
+    "cy-smoke-wip": "CYPRESS_INCLUDE_TAGS=smoke,wip npm run cy-run"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.19.5",
+    "allure-commandline": "^2.13.8",
+    "cypress": "^9.0.0",
+    "cypress-grep": "^2.10.3",
+    "cypress-xpath": "^1.6.2",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.0.2",
+    "mocha": "^9.1.3",
+    "mocha-allure-reporter": "^1.4.0",
+    "prettier": "2.4.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "cypress-tags": "^0.3.0"
+  }
+}

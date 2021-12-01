@@ -1,0 +1,74 @@
+{
+  "uid" : "e2602dbef457112b",
+  "name" : " Check the item in cart",
+  "fullName" : "Demoblaze example app. Check the item in cart",
+  "historyId" : "8feeb25744f89aee639170c248decdf8",
+  "time" : {
+    "start" : 1637565066187,
+    "stop" : 1637565068242,
+    "duration" : 2055
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : " Check the item in cart"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e15802d1587ed17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637324649107,
+        "stop" : 1637324653394,
+        "duration" : 4287
+      }
+    }, {
+      "uid" : "155af21cbf42f460",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637322235728,
+        "stop" : 1637322246015,
+        "duration" : 10287
+      }
+    }, {
+      "uid" : "3368e1e12b41990b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637319643158,
+        "stop" : 1637319645571,
+        "duration" : 2413
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2602dbef457112b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "150f1a186100414d",
+  "name" : "Get User ",
+  "fullName" : "Get API user test.Get User ",
+  "historyId" : "52fd5f30c8e3e525592b6368a34cdce",
+  "time" : {
+    "start" : 1637743939185,
+    "stop" : 1637743942774,
+    "duration" : 3589
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Get API user test"
+  }, {
+    "name" : "testClass",
+    "value" : "Get API user test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Get User "
+  }, {
+    "name" : "package",
+    "value" : "Get API user test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "150f1a186100414d.json",
+  "parameterValues" : [ ]
+}

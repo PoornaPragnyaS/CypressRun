@@ -1,0 +1,74 @@
+{
+  "uid" : "e3bce778630fea9a",
+  "name" : "Place order",
+  "fullName" : "Demoblaze example app.Place order",
+  "historyId" : "a118f87dd593076d2fbc03fe4ed2b125",
+  "time" : {
+    "start" : 1637565068273,
+    "stop" : 1637565078513,
+    "duration" : 10240
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : "Place order"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1cc0d824df9fb686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637324653416,
+        "stop" : 1637324658870,
+        "duration" : 5454
+      }
+    }, {
+      "uid" : "97aec7d40562a24f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637322246071,
+        "stop" : 1637322264266,
+        "duration" : 18195
+      }
+    }, {
+      "uid" : "47e42b1a2e254993",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637319645601,
+        "stop" : 1637319652826,
+        "duration" : 7225
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3bce778630fea9a.json",
+  "parameterValues" : [ ]
+}

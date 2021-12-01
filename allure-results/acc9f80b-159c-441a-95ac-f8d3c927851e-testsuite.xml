@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637322189641' stop='1637322264267'>
+    <name>Demoblaze example app</name>
+    <title>Demoblaze example app</title>
+    <test-cases>
+        <test-case start='1637322189643' status='passed' stop='1637322218686'>
+            <name> Click on SigIn</name>
+            <title> Click on SigIn</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637322218700' status='failed' stop='1637322226467'>
+            <name>Select an item</name>
+            <title>Select an item</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `[src="imgs/iphone_6.jpg"]`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `[src="imgs/iphone_6.jpg"]`, but never found it.
+                    at item.getimg (https://www.demoblaze.com/__cypress/tests?p=cypress\integration\specs\demoblaze.spec.js:238:15)
+                    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\integration\specs\demoblaze.spec.js:148:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637322226598' status='failed' stop='1637322235661'>
+            <name> Add an item to cart</name>
+            <title> Add an item to cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `a.btn-lg`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `a.btn-lg`, but never found it.
+                    at cart.button (https://www.demoblaze.com/__cypress/tests?p=cypress\integration\specs\demoblaze.spec.js:202:15)
+                    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\integration\specs\demoblaze.spec.js:154:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637322235728' status='passed' stop='1637322246015'>
+            <name> Check the item in cart</name>
+            <title> Check the item in cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637322246071' status='passed' stop='1637322264266'>
+            <name>Place order</name>
+            <title>Place order</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

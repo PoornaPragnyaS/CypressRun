@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 22 12:40:59 IST 2021","Mon Nov 22 12:41:06 IST 2021","7118","","Demoblaze example app","","Demoblaze example app"," Add an item to cart"," Add an item to cart",""
+"passed","Mon Nov 22 12:41:06 IST 2021","Mon Nov 22 12:41:08 IST 2021","2055","","Demoblaze example app","","Demoblaze example app"," Check the item in cart"," Check the item in cart",""
+"passed","Wed Nov 24 14:22:19 IST 2021","Wed Nov 24 14:22:22 IST 2021","3589","","Get API user test","","Get API user test","Get User ","Get User ",""
+"passed","Mon Nov 22 12:41:08 IST 2021","Mon Nov 22 12:41:18 IST 2021","10240","","Demoblaze example app","","Demoblaze example app","Place order","Place order",""
+"passed","Mon Nov 22 12:40:33 IST 2021","Mon Nov 22 12:40:49 IST 2021","16367","","Demoblaze example app","","Demoblaze example app"," Click on SigIn"," Click on SigIn",""
+"broken","Mon Nov 22 12:40:49 IST 2021","Mon Nov 22 12:40:58 IST 2021","9023","","Demoblaze example app","","Demoblaze example app","Select an item","Select an item",""

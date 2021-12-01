@@ -1,0 +1,81 @@
+{
+  "uid" : "c5ba7e40ae318b0d",
+  "name" : "Select an item",
+  "fullName" : "Demoblaze example app.Select an item",
+  "historyId" : "a61eb708bd891052132c67790c5373a2",
+  "time" : {
+    "start" : 1637565049899,
+    "stop" : 1637565058922,
+    "duration" : 9023
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n                \n                `<img class=\"card-img-top img-fluid\" src=\"imgs/iphone_6.jpg\" alt=\"\">`\n                \n                This element `<img.card-img-top.img-fluid>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+  "statusTrace" : "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n                \n                `<img class=\"card-img-top img-fluid\" src=\"imgs/iphone_6.jpg\" alt=\"\">`\n                \n                This element `<img.card-img-top.img-fluid>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with\n                    at runVisibilityCheck (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:162670:85)\n                    at $Cy.ensureStrictVisibility (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:162686:14)\n                    at runAllChecks (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:149905:14)\n                    at retryActionability (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:149960:16)\n                    at tryCatcher (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:13212:23)\n                    at Function.Promise.attempt.Promise.try (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:10486:29)\n                    at tryFn (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:167495:61)\n                    at whenStable (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:167534:14)\n                    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:167021:18\n                    at tryCatcher (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:13212:23)\n                    at Promise._settlePromiseFromHandler (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11147:31)\n                    at Promise._settlePromise (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11204:18)\n                    at Promise._settlePromise0 (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11249:10)\n                    at Promise._settlePromises (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11329:18)\n                    at Promise._fulfill (https://www.demoblaze.com/__cypress/runner/cypress_runner.js:11273:18)\n                    at https://www.demoblaze.com/__cypress/runner/cypress_runner.js:12887:46\n                From Your Spec Code:\n                    at Context.eval (https://www.demoblaze.com/__cypress/tests?p=cypress\\integration\\specs\\demoblaze.spec.js:148:26)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select an item"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "47f935230af188b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637324630890,
+        "stop" : 1637324638661,
+        "duration" : 7771
+      }
+    }, {
+      "uid" : "68439e464f6579f2",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `[src=\"imgs/iphone_6.jpg\"]`, but never found it.",
+      "time" : {
+        "start" : 1637322218700,
+        "stop" : 1637322226467,
+        "duration" : 7767
+      }
+    }, {
+      "uid" : "5f2ecf1ed4c8f8f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637319626604,
+        "stop" : 1637319634408,
+        "duration" : 7804
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c5ba7e40ae318b0d.json",
+  "parameterValues" : [ ]
+}

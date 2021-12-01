@@ -1,0 +1,48 @@
+{
+  "uid" : "97aec7d40562a24f",
+  "name" : "Place order",
+  "fullName" : "Demoblaze example app.Place order",
+  "historyId" : "a118f87dd593076d2fbc03fe4ed2b125",
+  "time" : {
+    "start" : 1637322246071,
+    "stop" : 1637322264266,
+    "duration" : 18195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testClass",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "testMethod",
+    "value" : "Place order"
+  }, {
+    "name" : "package",
+    "value" : "Demoblaze example app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97aec7d40562a24f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,117 @@
+{
+  "8feeb25744f89aee639170c248decdf8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2602dbef457112b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637565066187,
+        "stop" : 1637565068242,
+        "duration" : 2055
+      }
+    } ]
+  },
+  "a118f87dd593076d2fbc03fe4ed2b125" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3bce778630fea9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637565068273,
+        "stop" : 1637565078513,
+        "duration" : 10240
+      }
+    } ]
+  },
+  "52fd5f30c8e3e525592b6368a34cdce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "150f1a186100414d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637743939185,
+        "stop" : 1637743942774,
+        "duration" : 3589
+      }
+    } ]
+  },
+  "a61eb708bd891052132c67790c5373a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5ba7e40ae318b0d",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n                \n                `<img class=\"card-img-top img-fluid\" src=\"imgs/iphone_6.jpg\" alt=\"\">`\n                \n                This element `<img.card-img-top.img-fluid>` is not visible because it has an effective width and height of: `0 x 0` pixels.\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+      "time" : {
+        "start" : 1637565049899,
+        "stop" : 1637565058922,
+        "duration" : 9023
+      }
+    } ]
+  },
+  "16b9a67c177b73c8d06d2d33dc37b2b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2bcd50ba535feb14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637565059045,
+        "stop" : 1637565066163,
+        "duration" : 7118
+      }
+    } ]
+  },
+  "e829fdef1d3a93ec9c5a83a075ebbada" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6388ea71c273f90e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637565033524,
+        "stop" : 1637565049891,
+        "duration" : 16367
+      }
+    } ]
+  }
+}
